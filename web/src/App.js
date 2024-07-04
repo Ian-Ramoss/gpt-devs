@@ -8,7 +8,7 @@ import { SideMenu } from './components/SideMenu/SideMenu';
 import { ChatMessage } from './components/ChatMessage/ChatMessage';
 
 function App() {
-
+ 
   const[input, setInput] = useState("")
   const[chatlog, setChatlog] = useState([{
     user:"gpt",
